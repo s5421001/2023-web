@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fairytale Translation Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="title">元の日本語なんだろな？</h1>
+        </div>
+        <div class="content">
+            <button onclick="startGame()">ゲームスタート</button>
+            <p id="question"></p>
+            <input type="text" id="answer" placeholder="Your Answer">
+            <button onclick="checkAnswer()">回答する</button>
+            <p id="result"></p>
+        </div>
+        <div class="info">
+            <h2>説明</h2>
+            <p id="setu">このゲームは、中国語に翻訳されている日本語は何か当てるゲームです。</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
